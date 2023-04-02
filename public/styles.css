@@ -1,0 +1,210 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+.nav {
+  position: absolute;
+}
+#main-heading {
+  font-size: 30px;
+  font-family: "Poppins", sans-serif;
+}
+.main-div {
+  padding: 2% 2%;
+  position: relative;
+  background-color: black;
+  height: 660px;
+}
+
+.define {
+  position: static;
+  padding: 3% 8% 7%;
+}
+.define-title {
+  color: black;
+  padding: 20px;
+  font-size: 50px;
+}
+.main-title {
+  position: static;
+  padding-top: 0px;
+  font-size: 100px;
+
+  line-height: 100px;
+  color: transparent;
+  -webkit-text-stroke: 1px whitesmoke;
+  font-family: "Poppins", sans-serif;
+  background: url(images/back.png);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+}
+.main-title-section {
+  position: static;
+
+  color: whitesmoke;
+  margin-left: 50px;
+}
+.main-title-sub {
+  padding-top: 210px;
+  font-size: 23px;
+  font-family: "Montserrat", sans-serif;
+}
+.second.main-title-sub {
+  padding-top: 0px;
+}
+
+#triangle-right {
+  position: absolute;
+  top: 440px;
+  right: 10px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid whitesmoke;
+  border-bottom: 50px solid transparent;
+  opacity: 0.3;
+}
+#triangle-left {
+  position: absolute;
+  top: 500px;
+  right: 0px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid whitesmoke;
+  border-bottom: 50px solid transparent;
+  opacity: 0.1;
+}
+#triangle-right1 {
+  position: absolute;
+  top: 60px;
+  left: 0px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-left: 100px solid whitesmoke;
+  border-bottom: 50px solid transparent;
+  opacity: 0.1;
+}
+#triangle-left1 {
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  width: 0;
+  height: 0;
+  border-top: 50px solid transparent;
+  border-right: 100px solid whitesmoke;
+  border-bottom: 50px solid transparent;
+  opacity: 0.3;
+}
+#About {
+  position: static;
+  padding: 3% 8% 4%;
+  background-color: black;
+}
+#skill {
+  position: relative;
+  padding: 1% 8% 4%;
+  background-color: black;
+}
+#Contact {
+  padding: 4% 15% 4%;
+  position: static;
+}
+
+#footer {
+  color: whitesmoke;
+  background-color: black;
+}
+#triangle-lefts {
+  opacity: 0.1;
+  left: 0px;
+  border-top: 50px solid transparent;
+  border-left: 100px solid white;
+  border-bottom: 50px solid transparent;
+}
+#triangle-rights {
+  width: 0;
+  height: 0;
+  opacity: 0.1;
+  top: 70px;
+  left: 0px;
+  border-top: 50px solid transparent;
+  border-right: 100px solid white;
+  border-bottom: 50px solid transparent;
+}
+#triangle-lefts1 {
+  opacity: 0.1;
+  right: 0px;
+  top: 170px;
+  border-top: 50px solid transparent;
+  border-left: 100px solid white;
+  border-bottom: 50px solid transparent;
+}
+#triangle-rights1 {
+  width: 0;
+  height: 0;
+  opacity: 0.1;
+  top: 100px;
+  right: 0px;
+  border-top: 50px solid transparent;
+  border-right: 100px solid white;
+  border-bottom: 50px solid transparent;
+}
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#scroll-to-top.white {
+  background-color: white;
+  color: black;
+}
+.font {
+  height: 24px;
+  width: 24px;
+  color: #000914;
+}
+@media (max-width: 480px) {
+  .main-div {
+    padding: 1% 1%;
+    height: 690px;
+  }
+  .main-title {
+    font-size: 50px;
+    line-height: 50px;
+    color: transparent;
+    -webkit-text-stroke: 1px whitesmoke;
+    font-family: "Poppins", sans-serif;
+    background: url(images/back.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+  }
+  #Contact {
+    padding: 4%;
+    position: static;
+  }
+  #About {
+    position: static;
+    padding: 4%;
+    background-color: black;
+  }
+  #triangle-left1 {
+    opacity: 0.3;
+  }
+  #triangle-right {
+    opacity: 0.3;
+  }
+  #triangle-lefts {
+    opacity: 0.3;
+  }
+  #triangle-rights1 {
+    opacity: 0.3;
+  }
+}
